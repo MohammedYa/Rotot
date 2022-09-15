@@ -1,0 +1,44 @@
+.ourteam{
+    margin: 50px;
+}
+.ourteam h2{
+    width: fit-content;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: auto;
+    position: relative;
+
+}
+.ourteam h2::after{
+    width:70% ;
+    height: 8px;
+    content: '';
+    background-color: #E1F3FD;
+    position: absolute;
+    top: 120%;
+    left: 0;
+}
+.ourteam h2::before{
+    width:50% ;
+    height: 1px;
+    content: '';
+    background-color: #FEBA31;
+    position: absolute;
+    top: 125%;
+    right:  0;
+}
+.ourteam p{
+    font-size: 17px;
+    line-height: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin: 50px 0px;
+}
+.ourteam h3{
+    color: #000;
+  margin: 10px;
+}
+.ourteam h5{
+    color: #FEBA31;
+  margin: 10px;
+}

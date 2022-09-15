@@ -1,0 +1,51 @@
+footer{
+    background-color: rgba(47, 47, 48,1);
+    padding: 30px;
+    border-bottom:2px dotted #fff ;
+ 
+    
+}
+.d-flex{
+    margin: 20px;
+}
+.d-flex p{
+    font-size: 15px;
+    margin: 10px 30px;
+     color: #fff;
+}
+.d-flex i{
+    
+    color: #fff;
+    margin: 10px 30px;
+}
+.d-flex i:hover{
+    color: #00FF00;
+}
+.enter{
+   border:inherit ;
+    padding: 0px 19px;
+    width: 62%;
+    height: 54px;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    float: left;
+}
+.d-flex button{
+
+font-size: 19px;
+    transition: ease-in all 0.5s;
+    background-color: #f2db18;
+    color: #fff;
+    padding: 10px 0px;
+    max-width: 145px;
+    width: 100%;
+    display: block;
+    font-weight: 600;
+    margin-left: 0px;
+}
+.d-flex button:hover{
+    background-color: #000;
+    color: #fff;
+}

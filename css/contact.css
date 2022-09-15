@@ -1,0 +1,166 @@
+.test{
+    background-color: #E1F3FD;
+    box-sizing: border-box;
+    padding-top: 1px;
+    box-sizing: border-box;
+    height: 750px;
+   
+    
+}
+.contain{
+    margin: 70px;
+}
+.test h2{
+    width: fit-content;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: auto;
+    position: relative;
+
+}
+.test h2::after{
+    width:70% ;
+    height: 8px;
+    content: '';
+    background-color: #FEBA31;
+    position: absolute;
+    top: 120%;
+    left: 0;
+}
+.test h2::before{
+    width:50% ;
+    height: 1px;
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    top: 125%;
+    right:  0;
+}
+.boximg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boximg img{
+    border: 10px solid black;
+    border-radius: 50%;
+    width: fit-content;
+   
+
+}
+.boxcaption{
+    background-color: white;
+    padding: 30px;
+    font-size: 20px;
+    
+position: relative;
+}
+.boxcaption img{
+    
+    position: absolute;
+    top: 30%;
+    right: -10%;
+}
+.item{
+    width: 70%;
+    height: inherit;
+    margin: auto;
+    
+}
+.carousel-indicators{
+    top:110%;
+    left: 20%;
+}
+.carousel-indicators .active{
+    background-color: #FEBA31!important;
+    border-radius: 50%;
+    width:25px;
+    height: 25px;
+   
+
+}
+.carousel-indicators button{
+   
+    border-radius: 50%;
+    width: 40px !important;;
+    height: 40px !important;;
+
+}
+.contact{
+    padding: 20px;  
+}
+.form{
+    width: 50%;
+    margin: auto;
+}
+.form :first-child{
+    margin-top: 100px;
+}
+.form .inp{
+    margin-top: 48px;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #09c;
+    border-radius: 9px;
+
+}
+.form textarea{
+    margin: 48px 0px;
+    width: 100%;
+    border: 1px solid #09c;
+    border-radius: 9px;
+
+}
+.contact h2{
+    width: fit-content;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin: auto;
+    position: relative;  
+}
+.contact h2::after{
+    width:70% ;
+    height: 8px;
+    content: '';
+    background-color: #E1F3FD;
+    position: absolute;
+    top: 120%;
+    left: 0;
+}
+.contact h2::before{
+    width:50% ;
+    height: 1px;
+    content: '';
+    background-color: #FEBA31;
+    position: absolute;
+    top: 125%;
+    right:  0;
+}
+.form button{
+    margin: auto;
+    border-color: transparent;
+    display: block;
+    background-color: #FEBA31; 
+    font-size: 20px;
+    color: #000;
+    border-radius: 15px;
+    width: 150px;
+    height: 75px;
+    transition: all .5s;
+}
+.form button:hover{
+    color: #fff;
+    background-color: #000;
+}
+@media screen and (max-width :700px) {
+.form{
+   margin: auto;
+    width: 100%;
+}
+.line{
+    font-size: 90px;
+    font-weight: 700;
+    margin: 5px;
+
+}
+}
